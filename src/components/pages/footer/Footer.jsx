@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="mt-auto">
       <Container fluid style={{ backgroundColor: '#212529', color: '#fff' }}>
         <Container style={{ display: 'flex', justifyContent: 'center', padding: '18px' }}>
-          <p>Web Developer Blog</p>
+          <p>plant-directory</p>
         </Container>
       </Container>
     </div>
