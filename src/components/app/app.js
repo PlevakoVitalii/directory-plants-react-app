@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
+  Navigate,
   Route,
   Routes
 } from 'react-router-dom';
@@ -12,19 +13,25 @@ import {
   Home,
   Navibar,
   Plants,
-  AddPlants
+  AddPlants,
+  LoginPage
 } from '../pages';
-import AddPlants from '../pages/add-plants/add-plants';
-
-
-
-
-
-
 
 export default class App extends Component {
 
+  state = {
+    // swapiService: new SwapiService(),
+    isLoggedIn: true
+  }
+
+  onLogin = () => {
+    this.setState({
+      isLoggedIn: true
+    });
+  };
+
   render() {
+    const { isLoggedIn } = this.state;
 
     return (
       <>
@@ -50,7 +57,7 @@ export default class App extends Component {
                     isLoggedIn={isLoggedIn} />} />
                 <Route
                   path="*"
-                  element={<Navigate to="/" />} />
+                  element={<Navigate to="/home" />} />
               </Routes>
             </div>
           </Router>
