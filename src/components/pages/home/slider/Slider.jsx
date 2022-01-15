@@ -14,7 +14,7 @@ export default function Slider() {
 
   const items = imgSrc.map((item) => {
     return (
-      <Carousel.Item style={{ height: '600px' }} key={item}>
+      <Carousel.Item style={{ height: '400px' }} key={item}>
         <img className='d-block w-100'
           src={item}
           alt="#" />
