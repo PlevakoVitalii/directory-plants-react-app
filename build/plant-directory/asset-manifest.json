@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "./static/css/main.2b1551ba.css",
+    "main.js": "./static/js/main.4420435b.js",
+    "static/media/plant4.jpg": "./static/media/plant4.472c5cef381723556440.jpg",
+    "static/media/plant2.jpg": "./static/media/plant2.c7c019de20de6279ab16.jpg",
+    "static/media/plant8.jpg": "./static/media/plant8.dbdc478d8838a5baf4b5.jpg",
+    "static/media/plant1jpg": "./static/media/plant1jpg.fc9901c623636d0e5972",
+    "static/media/snakePlant.jpg": "./static/media/snakePlant.81dbdf94c0e2dc84c5f8.jpg",
+    "static/media/cornPlant.jpg": "./static/media/cornPlant.689d47b004b506f5c639.jpg",
+    "static/media/peaceLily.jpg": "./static/media/peaceLily.a9d405248d51f0de90f2.jpg",
+    "static/media/plant5.jpg": "./static/media/plant5.fa3c4bba759e1a02e61c.jpg",
+    "static/media/plant3.jpg": "./static/media/plant3.de738809413932da7104.jpg",
+    "static/media/plant6.jpg": "./static/media/plant6.43931770aedb9d4f6a09.jpg",
+    "static/media/plant7.jpg": "./static/media/plant7.a3f643daac3dd7c895a3.jpg",
+    "static/media/goldenPothos.jpg": "./static/media/goldenPothos.a115ab1837704b48f0fa.jpg",
+    "static/media/logo.jpg": "./static/media/logo.4aa0713a1b745a57f0d4.jpg",
+    "static/media/Photo-logo.png": "./static/media/Photo-logo.99c4ab35cd267ab5c275.png",
+    "index.html": "./index.html",
+    "main.2b1551ba.css.map": "./static/css/main.2b1551ba.css.map",
+    "main.4420435b.js.map": "./static/js/main.4420435b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b1551ba.css",
+    "static/js/main.4420435b.js"
+  ]
+}
