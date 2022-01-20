@@ -10,7 +10,7 @@ import snakePlant from '../../../../assets/plants/snakePlant.jpg'
 
 export default function PopularPlant() {
 
-  const plantData = [cornPlant, goldenPothos, peaceLily, snakePlant]
+  const plantData = [cornPlant, goldenPothos, peaceLily, snakePlant, cornPlant, goldenPothos,]
 
   const items = plantData.map((item, idx) => {
     const itemName = item.match(/.*\/(.*)\./)[1]
@@ -52,7 +52,7 @@ export default function PopularPlant() {
               alt="" />
           </Form>
         </Row>
-        <Row style={{ height: '600px', paddingTop: 20, display: 'flex', justifyContent: 'center' }} >
+        <Row style={{ height: '400px', paddingTop: 20, display: 'flex', justifyContent: 'center' }} >
           <Col style={{ display: 'flex' }}>
             {items}
           </Col>
