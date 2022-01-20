@@ -52,7 +52,7 @@ export default function PopularPlant() {
               alt="" />
           </Form>
         </Row>
-        <Row style={{ height: '400px', paddingTop: 20, display: 'flex', justifyContent: 'center' }} >
+        <Row style={{ height: '40start0px', paddingTop: 20, display: 'flex', justifyContent: 'center' }} >
           <Col style={{ display: 'flex' }}>
             {items}
           </Col>

@@ -1,8 +1,8 @@
 ## Plant-directory-react-app
 
-![](https://github.com/PlevakoVitalii/book-store-react-app/blob/master/book-store-screen.bmp)
+![](https://raw.githubusercontent.com/PlevakoVitalii/directory-plants-react-app/master/plant-directory-screen.bmp)
 
-Deployed book-store-react-app here [Book-store](https://plevakovitalii.github.io/book-store-react-app/book-store/).
+Deployed book-store-react-app here [Book-store](https://plevakovitalii.github.io/directory-plants-react-app/plant-directory/).
 
 Implemented functionality:
 
