@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Navigate,
   Route,
   Routes
@@ -36,7 +36,6 @@ export default class App extends Component {
     return (
       <>
         <ErrorBoundry>
-          {/* <SwapiServiceProvider value={this.state.swapiService}> */}
           <Router>
             <Navibar />
             <div className="d-flex flex-column min-vh-100">
@@ -62,7 +61,6 @@ export default class App extends Component {
             </div>
           </Router>
           <Footer className="mt-auto" />
-          {/* </SwapiServiceProvider> */}
         </ErrorBoundry>
       </>
     );
