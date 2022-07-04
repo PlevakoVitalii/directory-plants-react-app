@@ -2,7 +2,7 @@
 
 ![](https://raw.githubusercontent.com/PlevakoVitalii/directory-plants-react-app/master/plant-directory-screen.bmp)
 
-Deployed book-store-react-app here [Book-store](https://plevakovitalii.github.io/directory-plants-react-app/plant-directory/).
+Deployed plant-directory-react-app here [plant-directory](https://plevakovitalii.github.io/directory-plants-react-app/plant-directory/).
 
 Implemented functionality:
 
